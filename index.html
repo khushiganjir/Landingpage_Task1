@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakeMyTrip</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <header>
+        <nav class="fixed-nav">
+            <div class="logo">
+                <!-- <img src="logo.png" alt="MakeMyTrip logo"> -->
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">One Way</a></li>
+                <li><a href="#">Round Trip</a></li>
+                <li><a href="#">Multi City</a></li>
+                <li><a href="#">Hotels</a></li>
+                <li><a href="#">Flights</a></li>
+                <li><a href="#">Holiday Packages</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" style="background-image: url('backgroundimg.jpg');">
+            <h1>Find the Best Deals on Domestic and International Flights</h1>
+            <form>
+                <input type="text" placeholder="From (e.g. Delhi - DEL)">
+                <input type="text" placeholder="To (e.g. Bengaluru - BLR)">
+                <input type="date" id="departure-date">
+                <label for="travellers-class">Travellers & Class</label>
+                <select id="travellers-class">
+                    <option value="1">1 Traveller</option>
+                    <option value="2">2 Travellers</option>
+                    <option value="3">3 Travellers</option>
+                    <option value="4">4 Travellers</option>
+                    <option value="economy">Economy</option>
+                    <option value="premium-economy">Premium Economy</option>
+                </select>
+                <button type="submit">SEARCH</button>
+            </form>
+        </section>
+
+        <section class="offers">
+            <h2>Explore More</h2>
+            <ul>
+                <li><a href="#">Explore International Flights</a></li>
+                <li><a href="#">Cheapest Flights to Paris, Bali, Tokyo & more</a></li>
+                <li><a href="#">Holidays Trains Cabs</a></li>
+            </ul>
+        </section>
+
+        <section class="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li><a href="#">Hotels</a></li>
+                <li><a href="#">Homestays & Villas</a></li>
+                <li><a href="#">Trains</a></li>
+                <li><a href="#">Buses</a></li>
+                <li><a href="#">Cabs</a></li>
+                <li><a href="#">Holiday Packages</a></li>
+                <li><a href="#">Travel Insurance</a></li>
+                <li><a href="#">Bank Offers Flights</a></li>
+                <li><a href="#">Gift Cards</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 MakeMyTrip. All rights reserved.</p>
+        <a href="https://www.freepik.com/free-photo/beautiful-tropical-beach-sea-ocean-with-coconut-palm-tree-sunrise-time_4188195.htm#query=beach&position=11&from_view=search&track=sph&uuid=be61f01f-f22a-44b7-8a12-2ae55358ddec">Image by lifeforstock on Freepik</a>
+
+    </footer>
+</body>
+
+</html>
